@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	background-image: url("foto/landing.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.navigasi{
+	position: fixed;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+}
+
+.navigasi a{
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	font-family: arial;
+	float: right;
+}
+
+.navigasi a:hover{
+	color: black;
+	background-color: white;
+}
+
+.atas{
+	height: 700px;
+}
+
+.isi{
+	height: 700px;
+	background-color: white;
+}
