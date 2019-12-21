@@ -11,11 +11,12 @@ body{
 	top: 0;
 	background-color: rgba(0,0,0,0.5);
 	width: 100%;
+	z-index: 12;
 }
 
 .navigasi a{
 	color: white;
-	padding: 20px;
+	padding: 10px;
 	text-decoration: none;
 	font-family: arial;
 	float: right;
@@ -28,9 +29,69 @@ body{
 
 .atas{
 	height: 700px;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .isi{
-	height: 700px;
+	background-size: cover;
 	background-color: white;
+	height: 500px;
+
+}
+
+.sambutan{
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	display: block;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	color: white;
+}
+
+.daftarmenu{
+	font-family: arial;
+	color: #ffffff;
+	background-color: rgba(0,0,0,1);
+	height: 500px;
+}
+
+.review{
+	font-family: arial;
+	background-color: rgba(255,255,255,1);
+	height: 800px;
+}
+
+.lokasi{
+	font-family: arial;
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.5);
+	height: 600px;
+}
+
+.news{
+	font-family: arial;
+	background-color: rgba(255,255,255,1);
+	height: 750px;
+}
+
+.login{
+	font-family: arial;
+	color: #ffffff;
+	background-color: rgba(0,0,0,1);
+	height: 200px;
+}
+
+.terakhir{
+	font-family: apa;
+	font-size: 63px;
+	font-weight: 32px;
+	background-color: rgba(255,255,255,0.3);
+	height: 200px;
+}
+
+@font-face{
+	font-family: "apa";
+	src: url("font/hi.ttf");
 }
