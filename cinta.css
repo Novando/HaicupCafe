@@ -36,6 +36,7 @@ body{
 	background-size: cover;
 	background-color: white;
 	height: 500px;
+	display: none;
 
 }
 
@@ -54,44 +55,116 @@ body{
 	font-family: arial;
 	color: #ffffff;
 	background-color: rgba(0,0,0,1);
-	height: 500px;
+	height: 800px;
 }
 
 .review{
 	font-family: arial;
-	background-color: rgba(255,255,255,1);
-	height: 800px;
+	background-color: white;
+	padding: 50px;
 }
 
 .lokasi{
 	font-family: arial;
 	color: #ffffff;
 	background-color: rgba(0,0,0,0.5);
-	height: 600px;
+	padding: 50px;
 }
 
 .news{
 	font-family: arial;
 	background-color: rgba(255,255,255,1);
-	height: 750px;
+	padding: 50px;
 }
 
 .login{
 	font-family: arial;
 	color: #ffffff;
 	background-color: rgba(0,0,0,1);
-	height: 200px;
+	padding: 50px;
 }
 
 .terakhir{
 	font-family: apa;
 	font-size: 63px;
 	font-weight: 32px;
-	background-color: rgba(255,255,255,0.3);
-	height: 200px;
+	color: white;
+	background-color: rgba(0,0,0,1);
+	padding: 50px;
 }
 
 @font-face{
 	font-family: "apa";
 	src: url("font/hi.ttf");
+}
+
+.kirim{
+	background-color: green;
+	color: white;
+	padding: 20px;
+	width: 125px;
+	border-style: none;
+	border-radius: 15px;
+}
+
+.reset{
+	background-color: red;
+	color: white;
+	padding: 20px;
+	width: 125px;
+	border-style: none;
+	border-radius: 15px;
+}
+
+.daftar{
+	width: 250px;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.pertama{
+	font-family: arial;
+	display: block;
+}
+
+.kosong{
+	background-color: white;
+	border-style: none;
+	color: black;
+}
+
+.masukan-jumlah{
+	border-style: solid;
+}
+
+.kedua{
+	font-family: arial;
+	display: none;
+	margin-top: 10%;
+	font-weight: 500;
+	font-size: 32px;
+}
+
+.kedua p{
+	font-weight: 900;
+	font-size: 128px;
+}
+
+.bayar{
+	background-color: green;
+	color: white;
+	padding: 20px;
+	width: 125px;
+	border-style: none;
+	border-radius: 15px;
+}
+
+.selesai{
+	background-color: green;
+	color: white;
+	padding: 20px;
+	width: 256px;
+	height: 128px;
+	border-style: none;
+	border-radius: 15px;
 }

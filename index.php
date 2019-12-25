@@ -3,16 +3,17 @@
 <head>
 	<title>#SAYHAICUP</title>
 	<link rel="stylesheet" type="text/css" href="cinta.css">
+	<script type="text/javascript" src="fungsi.js"></script>
 </head>
 <body>
 	<div class="navigasi">
-		<a href="#atas" style="float:left;"><font face="apa">HAICUP</font></a>
-		<a href="#Daftar">Daftar</a>
-		<a href="#news">News</a>
-		<a href="#location">Location</a>
-		<a href="#review">Review</a>
-		<a href="beli.php">Beli</a>
-		<a href="#menu">Menu</a>
+		<a href="/haicupcafe" style="float:left;"><font face="apa">HAICUP</font></a>
+		<a href="/haicupcafe/#Daftar">Daftar</a>
+		<a href="/haicupcafe/#news">News</a>
+		<a href="/haicupcafe/#location">Location</a>
+		<a href="/haicupcafe/#review">Review</a>
+		<a href="/haicupcafe/beli.php">Beli</a>
+		<a href="/haicupcafe/#menu">Menu</a>
 	</div>
 	<div id="atas" class="atas">
 		<div class="sambutan">
@@ -209,21 +210,14 @@
                     Pertama kali nyoba rasanya enak biyangett nagih pengen lagi!! Bakal jadi langganan nih.
                 </td>
             </tr>
-        </table><br>
-    	</center>
-   	</table>
-	<table>
-        <th colspan="3">
-            </th>
-                </table><br>
-                <center>
+        </table><br><br>
                 	<img src="foto/ijo.jpg" width="15%">
                  	<img src="foto/ijo1.jpg" width="15%">
                 <br>
                 <br>
                 	<img src="foto/boba.jpg" width="15%">	
                 	<img src="foto/boba1.jpg" width="15%">
-        </table><br>
+       			<br>
     </center>
 	</div>
 	<div id="location" class="lokasi">
@@ -267,29 +261,31 @@
                         <img src="foto/dis3.jpeg" width="20%">
             </center>
 	</div>
-	<div id="login" class="Daftar">
-		<form method="post" action="kamu.php" class="login">
+	<div id="daftar" class="Daftar">
+		<form method="post" action="daftar.php" class="login">
 		<center>
 		<table>
 		<td colspan="3" align="center">
 			<br>
 			<br>
+			<p>Daftarkan diri menjadi member untuk memudahkan pemesannan<br>
+			Serta jangan lewatkan penawaran menarik lainnya!!!</p>
 			<font face="arial" size="6"><b>DAFTAR</b></font>
 		</tr>
 		<tr>
 		<td>Nama</td>
 		<td>:</td>
-		<td><input type="text" name="nama" td="nama" ></td>
+		<td><input class="daftar" type="text" name="nama" required=""></td>
 		</tr>
 		<tr>
-		<td>No Hp.</td>
+		<td>No. HP</td>
 		<td>:</td>
-		<td><input type="text" name="nomor" td="nomor"><td>
+		<td><input class="daftar" type="text" name="nomor" required=""><td>
 		</tr>
 		<tr>
 		<td colspan="3" align="center">
-		<input type="submit" name="btnKirim" value="Kirim" align="center">
-		<input type="reset" name="btnReset" value="Reset" align="center">
+		<button type="submit" class="kirim" name="btnKirim" align="center">KIRIM</button>
+		<button type="reset" class="reset" name="btnReset" align="center">HAPUS</button>
 		</td>
 		</tr>
 		</table>
